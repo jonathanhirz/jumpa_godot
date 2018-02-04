@@ -1,10 +1,10 @@
 extends KinematicBody2D
 
-const GRAVITY = 200
+const GRAVITY = 500
 const WALK_SPEED = 300
 const MAX_WALK_SPEED = 200
-const JUMP_FORCE = 150
-const MAX_JUMPS = 2
+const JUMP_FORCE = 250
+const MAX_JUMPS = 1
 
 var acceleration = Vector2(0, GRAVITY)
 var velocity = Vector2()
@@ -18,12 +18,17 @@ func _physics_process(delta):
 		if(number_of_jumps < MAX_JUMPS):
 			velocity.y = -JUMP_FORCE
 			number_of_jumps += 1
-		
+	if(Input.is_action_just_released("jump")):
+		velocity.y *= 0.6
 	
 	# left/right movement
 	if(Input.is_action_pressed("left")):
+		if(velocity.x > 0):
+			velocity.x = velocity.x * 0.85
 		acceleration.x = -WALK_SPEED
 	elif(Input.is_action_pressed("right")):
+		if(velocity.x < 0):
+			velocity.x = velocity.x * 0.85
 		acceleration.x = WALK_SPEED
 	else:
 		acceleration.x = 0
