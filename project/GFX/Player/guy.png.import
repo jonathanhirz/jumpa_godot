@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/guy.png-64a8d6e0294e356486ef1e77ad36474d.stex"
+path="res://.import/guy.png-f791f050e4bb078f8c5f5767c14f0d05.stex"
 
 [deps]
 
-source_file="res://guy.png"
+source_file="res://GFX/Player/guy.png"
 source_md5="72c969d7c0fb781c82cb644b5e0bb575"
 
-dest_files=[ "res://.import/guy.png-64a8d6e0294e356486ef1e77ad36474d.stex" ]
+dest_files=[ "res://.import/guy.png-f791f050e4bb078f8c5f5767c14f0d05.stex" ]
 dest_md5="822f4748f6049b749c3eb7ffae1e07ee"
 
 [params]

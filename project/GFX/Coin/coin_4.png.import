@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TileSheet.png-c0f98e88ee198aec5836e8aa47c134d5.stex"
+path="res://.import/coin_4.png-cc9b3938d2416f2fe99dbb796d8c4f6a.stex"
 
 [deps]
 
-source_file="res://TileSheet.png"
-source_md5="8cb8ca90ac19bb1a9efbb59679fe056e"
+source_file="res://GFX/Coin/coin_4.png"
+source_md5="bef868fc7550721d2a172e955658543e"
 
-dest_files=[ "res://.import/TileSheet.png-c0f98e88ee198aec5836e8aa47c134d5.stex" ]
-dest_md5="5e5f3eaa78e7a009b11e2409193dc231"
+dest_files=[ "res://.import/coin_4.png-cc9b3938d2416f2fe99dbb796d8c4f6a.stex" ]
+dest_md5="8e62810e3231d4bdce9ea666a1a21e69"
 
 [params]
 
