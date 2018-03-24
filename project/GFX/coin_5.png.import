@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/coin_3.png-4dcb42265a9860623634c35d3a5f0224.stex"
+path="res://.import/coin_5.png-1ed19452a323441cd54451db44288ae1.stex"
 
 [deps]
 
-source_file="res://GFX/Coin/coin_3.png"
-source_md5="4e9182ada3ec3f42f93f8fcd4c0d39fd"
+source_file="res://GFX/coin_5.png"
+source_md5="6d3511353a56380e25051acf30037fed"
 
-dest_files=[ "res://.import/coin_3.png-4dcb42265a9860623634c35d3a5f0224.stex" ]
-dest_md5="10d1dec5c850b20e86dc1b5d44a0a8ee"
+dest_files=[ "res://.import/coin_5.png-1ed19452a323441cd54451db44288ae1.stex" ]
+dest_md5="ed08fac1537c82510ebabbb7ba6b9992"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

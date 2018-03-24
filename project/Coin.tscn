@@ -1,15 +1,16 @@
 [gd_scene load_steps=13 format=2]
 
-[ext_resource path="res://Code/Coin.gd" type="Script" id=1]
-[ext_resource path="res://GFX/Coin/coin_0.png" type="Texture" id=2]
-[ext_resource path="res://GFX/Coin/coin_1.png" type="Texture" id=3]
-[ext_resource path="res://GFX/Coin/coin_2.png" type="Texture" id=4]
-[ext_resource path="res://GFX/Coin/coin_3.png" type="Texture" id=5]
-[ext_resource path="res://GFX/Coin/coin_4.png" type="Texture" id=6]
-[ext_resource path="res://GFX/Coin/coin_5.png" type="Texture" id=7]
-[ext_resource path="res://GFX/Coin/coin_6.png" type="Texture" id=8]
-[ext_resource path="res://GFX/Coin/coin_7.png" type="Texture" id=9]
-[ext_resource path="res://Audio/Coin.wav" type="AudioStream" id=10]
+[ext_resource path="res://Coin.gd" type="Script" id=1]
+[ext_resource path="res://GFX/coin_4.png" type="Texture" id=2]
+[ext_resource path="res://GFX/coin_5.png" type="Texture" id=3]
+[ext_resource path="res://GFX/coin_6.png" type="Texture" id=4]
+[ext_resource path="res://GFX/coin_7.png" type="Texture" id=5]
+[ext_resource path="res://GFX/coin_0.png" type="Texture" id=6]
+[ext_resource path="res://GFX/coin_1.png" type="Texture" id=7]
+[ext_resource path="res://GFX/coin_2.png" type="Texture" id=8]
+[ext_resource path="res://GFX/coin_3.png" type="Texture" id=9]
+[ext_resource path="res://Coin.wav" type="AudioStream" id=10]
+
 
 
 
@@ -17,14 +18,14 @@
 
 animations = [ {
 "frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ],
-"loop": true,
-"name": "Spin",
-"speed": 6.0
-}, {
-"frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
 "loop": false,
 "name": "Collect",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "Spin",
+"speed": 6.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
@@ -32,7 +33,7 @@ animations = [ {
 custom_solver_bias = 0.0
 extents = Vector2( 5, 8 )
 
-[node name="Coin" type="Area2D"]
+[node name="Coin" type="Area2D" index="0"]
 
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -47,7 +48,7 @@ script = ExtResource( 1 )
 
 frames = SubResource( 1 )
 animation = "Spin"
-frame = 3
+frame = 2
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]

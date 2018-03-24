@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TileSheet.png-348f9ad560ba6571e01fedbba9f2c74d.stex"
+path="res://.import/TileSheet.png-f4d2257cc0447456a0e1d2334aeedc4b.stex"
 
 [deps]
 
-source_file="res://GFX/Tilesets/TileSheet.png"
+source_file="res://GFX/TileSheet.png"
 source_md5="8cb8ca90ac19bb1a9efbb59679fe056e"
 
-dest_files=[ "res://.import/TileSheet.png-348f9ad560ba6571e01fedbba9f2c74d.stex" ]
-dest_md5="5e5f3eaa78e7a009b11e2409193dc231"
+dest_files=[ "res://.import/TileSheet.png-f4d2257cc0447456a0e1d2334aeedc4b.stex" ]
+dest_md5="2b1a2f74d18746b691183995da5151c3"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

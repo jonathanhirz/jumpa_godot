@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/guy.png-f791f050e4bb078f8c5f5767c14f0d05.stex"
+path="res://.import/coin_6.png-08c43dd68d63f7192ecadf37c07b3767.stex"
 
 [deps]
 
-source_file="res://GFX/Player/guy.png"
-source_md5="72c969d7c0fb781c82cb644b5e0bb575"
+source_file="res://GFX/coin_6.png"
+source_md5="52aeca3133171795b4619dd2a0fc7655"
 
-dest_files=[ "res://.import/guy.png-f791f050e4bb078f8c5f5767c14f0d05.stex" ]
-dest_md5="822f4748f6049b749c3eb7ffae1e07ee"
+dest_files=[ "res://.import/coin_6.png-08c43dd68d63f7192ecadf37c07b3767.stex" ]
+dest_md5="e9278f09fe5c1031fd4b75f84358b233"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
